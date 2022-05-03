@@ -1,4 +1,5 @@
-''' Crei um script em Python que leia algo pelo teclado e mostre seu tipo primitivo'''
+''' DESAFIO 4:
+Crei um script em Python que leia algo pelo teclado e mostre seu tipo primitivo'''
 
 txt = input('Digite Algo:')     # variavel que recebe um valor pelo teclado
 

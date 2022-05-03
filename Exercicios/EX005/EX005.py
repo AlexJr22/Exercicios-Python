@@ -1,4 +1,5 @@
-'''Faça uma script que leia um número inteiro pelo teclado e mostra seu sucessor e seu antecessor'''
+''' DESAFIO 5:
+Faça uma script que leia um número inteiro pelo teclado e mostra seu sucessor e seu antecessor'''
 
 num = int(input('Digite um número: ')) # recebe um valor pelo teclado
 

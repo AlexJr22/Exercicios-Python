@@ -1,4 +1,5 @@
-'''Crie um script que leia o mês e ano de nascimento de uma pessoa e mostre no terminal um mensagem 
+'''DESAFIO 2:
+Crie um script que leia o mês e ano de nascimento de uma pessoa e mostre no terminal um mensagem 
 com a data formatada'''
 
 from datetime import date

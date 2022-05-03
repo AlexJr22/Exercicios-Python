@@ -1,4 +1,5 @@
-'''Crie um algoritimo que leia um número e mostre seu dobro, triplo, e raiz quadrada'''
+''' DESAFIO 6:
+Crie um algoritimo que leia um número e mostre seu dobro, triplo, e raiz quadrada'''
 from math import sqrt
 
 num = int(input('Digite um número: ')) # Recebe um valor pelo teclado

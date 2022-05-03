@@ -1,4 +1,5 @@
-'''faça um programa que leia duas notas de um aluno e mostre sua média'''
+''' DESAFIO 7:
+faça um programa que leia duas notas de um aluno e mostre sua média'''
 
 nota1 = float(input('Primeira nota: ')) # recebe a primeira nota
 nota2 = float(input('Segunda nota: '))  # recebe a segunda nota

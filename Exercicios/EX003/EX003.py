@@ -1,4 +1,5 @@
-'''Crie um script em Python que leia dos números e mostre no terminal a soma entre ele'''
+'''DESAFIO 3:
+Crie um script em Python que leia dos números e mostre no terminal a soma entre ele'''
 
 num1 = int(input('Digite um número: '))     # variavel que recebe o primeiro número
 num2 = int(input('Digite outro número: '))  # variavel que recebe o segundo número
