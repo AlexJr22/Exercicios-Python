@@ -1,4 +1,4 @@
-'''Desafio 8:
+'''DESAFIO 8:
 Faça um programa que leia um valor em metros e exiba ele em centimentros e milimetros'''
 
 metro = int(input('Qual a distância em metros: '))  # recebe um valor em metro
