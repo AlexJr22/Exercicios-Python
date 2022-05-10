@@ -4,8 +4,8 @@ Escreva um programa que pergunte a quantidade de KM percorridos por um carro alu
 alug_dia = int(input('Quantos dias o carro foi alugado?: ')) # recebo a quantidade de dias alugados
 KM_rodado = int(input('Quantos KM foram rodados durante o período de aluguel?: ')) # recebe quantos km foram percorridos
 
-valor_alug = 60 * alug_dia
-valor_km = 0.15 * KM_rodado
+valor_alug = 60 * alug_dia  # calcula o valor do aluguel
+valor_km = 0.15 * KM_rodado # calcula o valor dos KM percorridos
 
 # resultado
 print('-='*17)
