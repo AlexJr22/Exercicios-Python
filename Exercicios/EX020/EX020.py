@@ -10,9 +10,9 @@ a2 = input('Segundo aluno:')
 a3 = input('Terceiro aluno:')
 a4 = input('Quarto aluno:')
 turma = [a1, a2, a3, a4]    # quanda o nome de todos os alunos
+shuffle(turma)              # embaralha os itens da lista
 
 # resultado
 print('A ordem de apresentação dos trabalhos é: ')
-shuffle(turma)
-print(turma)
-    
+for v in range(len(turma)):
+    print(f'{v+1}º aluno: {turma[v]}')
