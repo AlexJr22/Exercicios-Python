@@ -5,11 +5,9 @@ Faça um programa que leia o nome dos quatro alunos e mostre a ordem de aprensen
 from random import shuffle
 
 # coletando o nome dos alunos
-a1 = input('Primeiro aluno:')
-a2 = input('Segundo aluno:')
-a3 = input('Terceiro aluno:')
-a4 = input('Quarto aluno:')
-turma = [a1, a2, a3, a4]    # quanda o nome de todos os alunos
+turma = []                  # quanda o nome de todos os alunos
+for a in range(0, 4):
+    turma.append(input(f'{a}º aluno: '))
 shuffle(turma)              # embaralha os itens da lista
 
 # resultado
