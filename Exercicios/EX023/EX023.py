@@ -15,8 +15,9 @@ cent = num // 100 % 10      # centena
 milh = num // 1000 % 10     # unidade de milhar
 
 # mostrando o resultado
-print('-=' * 15)
+print('-=' * 16)
 print(f'|->   Unidade: {unid:>16}')
 print(f'|->   Dezana: {deze:>17}')        
 print(f'|->   Centena: {cent:>16}')
 print(f'|->   Unidade de milhar: {milh:>6}')
+print('-=' * 16)
