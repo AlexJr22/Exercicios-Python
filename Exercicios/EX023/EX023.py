@@ -16,8 +16,8 @@ milh = num // 1000 % 10     # unidade de milhar
 
 # mostrando o resultado
 print('-=' * 16)
-print(f'|->   Unidade: {unid:>16}')
-print(f'|->   Dezana: {deze:>17}')        
-print(f'|->   Centena: {cent:>16}')
-print(f'|->   Unidade de milhar: {milh:>6}')
+print(f'|->   Unidade: \033[33m{unid:>16}\033[m')
+print(f'|->   Dezana: \033[33m{deze:>17}\033[m')
+print(f'|->   Centena: \033[33m{cent:>16}\033[m')
+print(f'|->   Unidade de milhar: \033[33m{milh:>6}\033[m')
 print('-=' * 16)
