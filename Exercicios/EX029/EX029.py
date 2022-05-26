@@ -8,6 +8,6 @@ veloc = int(input('Qual a velocidade do veículo: '))    # recebe a velociade do
 if veloc > 80:
     multa = (veloc - 80) * 7                            # calcula a multa
     print('Você foi multado!!')
-    print(f'A multa aplicada foi de R${multa}.')
+    print(f'A multa aplicada foi de R${multa:.2f}.')
 else:
     print('Este veiculo não esta ultrapassando o limite de velocidade permitido!')
