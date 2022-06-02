@@ -17,7 +17,7 @@ v_mensal = casa / prestaçao
 
 salario_2 = salario * 0.30    # 30% DO SALÁRIO DO USUARIO
 
-#dados pro usuario
+# dados pro usuario
 print('-=-'*15)
 print(f'O valor das parcelas não podem axceder 30%(R${salario_2:.2f}) do seu salario')
 print(f'O valor do seu salário é R${salario:.2f}')
@@ -25,8 +25,7 @@ print(f'O número de meses para completar o pagamento é {prestaçao}')
 print(f'O valor das parcelas é R${v_mensal:.2f}')
 print('-=-'*15)
 
-#aprovação do emprestimo
-
+# aprovação do emprestimo
 if v_mensal > salario_2:
     print('Seu emprestimo foi negado')
 else:

@@ -6,30 +6,20 @@ de conversão:
     -> 3 para hexadecimal
 '''
 
-print('-=-'*15)
-print('            EMPRESTIMO BANCARIO')
-print('-=-'*15)
+# ESCOLHA DO USUARIO
+num = int(input('Digite um número:'))
+print('''Escolha uma das bases númericas para conversão:
+[ 1 ] converter para binário
+[ 2 ] converter para octal
+[ 3 ] converter para hexadecimal''')
+opçao = int(input('Qual sua opção'))
 
-# dados bancarios
-casa = float(input('Qual o valor da casa: '))
-salario = float(input('Qual o valor do seu salário: '))
-anos = int(input('Em quantos anos você vai pagar o emprestimo: '))
-prestaçao = anos * 12
-v_mensal = casa / prestaçao
-
-salario_2 = salario * 0.30    # 30% DO SALÁRIO DO USUARIO
-
-#dados pro usuario
-print('-=-'*15)
-print(f'O valor das parcelas não podem axceder 30%(R${salario_2:.2f}) do seu salario')
-print(f'O valor do seu salário é R${salario:.2f}')
-print(f'O número de meses para completar o pagamento é {prestaçao}')
-print(f'O valor das parcelas é R${v_mensal:.2f}')
-print('-=-'*15)
-#aprovação do emprestimo
-
-if v_mensal > salario_2:
-    print('Seu emprestimo foi negado')
+# OPÇÕES DO USUARIO
+if opçao == 1:
+    print('O número {} convertido para binário é {}'.format(num, bin(num)[2:]))
+elif opçao == 2:
+    print('O número {} convertido para octal é {}'.format(num, oct(num)[2:]))
+elif opçao == 3:
+    print('O número {} convertido para hexadecimal é {}'.format(num, hex(num)[:2]))
 else:
-    print('Seu emprestimo foi aprovado')
-    print(f'Você pagará {prestaçao} parcelas de R${v_mensal:.2f}')
+    print('opção invalida, tente novamente!')
