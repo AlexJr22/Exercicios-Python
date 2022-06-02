@@ -24,6 +24,7 @@ print(f'O valor do seu salário é R${salario:.2f}')
 print(f'O número de meses para completar o pagamento é {prestaçao}')
 print(f'O valor das parcelas é R${v_mensal:.2f}')
 print('-=-'*15)
+
 #aprovação do emprestimo
 
 if v_mensal > salario_2:
