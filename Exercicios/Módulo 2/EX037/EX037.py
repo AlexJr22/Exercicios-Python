@@ -6,15 +6,15 @@ de conversão:
     -> 3 para hexadecimal
 '''
 
-# ESCOLHA DO USUARIO
-num = int(input('Digite um número:'))
+# ESCOLHA DO USUÁIO
+num = int(input('Digite um número:'))   # recebe um número pelo teclado
 print('''Escolha uma das bases númericas para conversão:
 [ 1 ] converter para binário
 [ 2 ] converter para octal
 [ 3 ] converter para hexadecimal''')
-opçao = int(input('Qual sua opção'))
+opçao = int(input('Qual sua opção: '))  # recebe a opção do usuário
 
-# OPÇÕES DO USUARIO
+# OPÇÕES DO USUÁRIO
 if opçao == 1:
     print('O número {} convertido para binário é {}'.format(num, bin(num)[2:]))
 elif opçao == 2:
