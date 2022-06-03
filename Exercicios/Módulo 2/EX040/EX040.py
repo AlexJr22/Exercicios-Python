@@ -18,6 +18,7 @@ print('-=-' * 15)
 print('RESULTADO DAS PROVAS'.center(45))
 print('-=-' * 15)
 
+# resultado
 if nf < 5.0:
     print('O aluno {} foi REPROVADO!'.format(nome))
     print('A média do aluno foi {}'.format(nf))
