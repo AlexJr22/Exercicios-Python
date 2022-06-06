@@ -35,18 +35,19 @@ if computador == 'pedra':
 elif computador == 'papel':
     if user_choice == 1:
         print('O computador venceu!!!')
-    if user_choice == 2:
+    elif user_choice == 2:
         print('EMPATE')
-    if user_choice == 3:
+    elif user_choice == 3:
         print(f'O jogador {user_name} venceu!!!')
     elif user_choice >= 4:
         print('\033[;31mopção invalida\033[m')
 elif computador == 'tesoura':
     if user_choice == 1:
         print(f'O jogador {user_name} venceu!!!')
-    if user_choice == 2:
+    elif user_choice == 2:
         print('O computador venceu!!!')
-    if user_choice == 3:
+    elif user_choice == 3:
         print('EMPATE')
     elif user_choice >= 4:
         print('\033[;31mopção invalida\033[m')
+print()
