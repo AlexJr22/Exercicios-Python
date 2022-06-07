@@ -8,5 +8,5 @@ print('Os números pares entre 1 e 50 são!')
 sleep(1.3)
 
 print()
-for num in range(0,51,+2):
+for num in range(0,51,+2):  # contador de números pares
     print(num, end=' ')

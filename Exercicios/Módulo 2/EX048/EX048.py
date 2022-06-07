@@ -4,7 +4,7 @@ intervalo de 1 ate 500.
 '''
 
 c = 0
-for num in range(1,500+1,+2):
+for num in range(1,500+1,+2):   # valida se o número é impar e multiplo de 3
     if num % 3 == 0:
         c += num
 print(c)
