@@ -10,15 +10,17 @@ print('''
 -=-=-=-=-=-=-=-=-=-=
 ''')
 
-num = int(input('''Digite um número para ver sua tabuada
+while True:
+  num = int(input('''Digite um número para ver sua tabuada
 >>> '''))
-
-if num == 0:
-  print('ENCERRANDO ...')
-  sleep(1.3)
-  print('Volte Sempre!!')
-else:
-  print('-=-=-=-=-=-=-=-=-=-=-=-=')
-  for n in range(1, 10):
-    print(f'{num} X {n} = {num * n}'.center(24))
-  print('-=-=-=-=-=-=-=-=-=-=-=-=')
+  if num == 0:
+    print('ENCERRANDO ...')
+    sleep(1.3)
+    break
+  else:
+    print('-=-=-=-=-=-=-=-=-=-=-=-=')
+    for n in range(1, 10):
+      print(f'{num} X {n} = {num * n}'.center(24))
+    print('-=-=-=-=-=-=-=-=-=-=-=-=')
+  
+print('Volte Sempre!!')
